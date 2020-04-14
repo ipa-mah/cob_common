@@ -26,7 +26,7 @@
             <stddev>0.0</stddev>
           </noise>
         </camera>
-        <plugin name="${name}_frame_controller" filename="libgazebo_ros_depth_camera.so">
+        <plugin name="${name}_frame_controller" filename="libgazebo_ros_openni_kinect.so">
           <updateRate>${color_fps}</updateRate>
           <cameraName>${name}</cameraName>
           <frameName>${name}_color_optical_frame</frameName>
