@@ -4,7 +4,7 @@
   <!-- use default values of mojin_bringup/d400_rgbd and d435 specs-->
   <xacro:macro name="realsense_d435_gazebo" params="name
                                                depth_fps:=15.0 depth_height:=720 depth_width:=1280
-                                               color_fps:=15.0 color_height:=720 color_width:=1280" >
+                                               color_fps:=15.0 color_height:=1080 color_width:=1920" >
     <gazebo reference="${name}_link">
       <sensor type="depth" name="${name}_depth_frame">
         <always_on>true</always_on>
